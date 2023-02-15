@@ -1,0 +1,18 @@
+.note{
+    margin: 20px 0;
+}
+
+.noteBodyGroup{
+    background-color: white;
+    margin: 20px 0;
+    border-radius: 20px;
+
+}
+
+.noteBody{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.9em;
+}

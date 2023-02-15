@@ -1,0 +1,38 @@
+
+.dashboardmain{
+    padding: 0 40px;
+}
+.mainGroup{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.greeting{
+    width: 60%;
+    margin: 40px;
+}
+.bpreadingSide{
+    width: 30%;
+    margin: 40px;
+}
+
+@media(max-width:960px){
+    .dashboardmain{
+        padding: 0 10px;
+    }
+
+    .greeting, .bpreadingSide{
+        width: 100%;
+        margin: 0px;
+    }
+
+    
+
+    .mainGroup{
+        
+        flex-direction: column;
+    }
+    
+}

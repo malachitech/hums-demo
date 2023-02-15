@@ -1,0 +1,47 @@
+.drugrefill{
+width: 100%;
+margin-bottom: 20px;
+  
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  thead > tr > td{
+    background: none;
+    font-weight: bolder;
+  }
+  td{
+    border-top: 10px solid rgb(243, 242, 247);
+    border-bottom: 10px solid rgb(243, 242, 247);
+    border-left: none;
+    border-right: none;
+    text-align: left;
+    padding: 15px;
+
+    background-color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+
+  /* @media screen and (max-width: 560px) {
+   
+    .drugrefill{
+      width: 100%;
+        
+      }
+      
+      table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100vw;
+          overflow: scroll;
+        }
+      
+  } */

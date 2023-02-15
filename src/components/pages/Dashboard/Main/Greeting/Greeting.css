@@ -1,0 +1,43 @@
+.greetingContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    border-radius: 20px;
+    margin: 0 0 30px;
+    height: 30vh;
+}
+
+.greetingNotes{
+    width: 60%;
+    background-color: white;
+    padding-left: 30px;
+}
+.greetingNotes > *{
+    background-color: white;
+}
+.greetingNotes > h3{
+    font-size: .8em;
+    font-weight: bolder;
+    color: blue;
+}
+.greetingNotes > h2{
+    font-size: 1.4em;
+    font-weight: bolder;
+}
+.greetingNotes > p{
+    font-size: .8em;
+    
+}
+.greetingImage{
+    width: 25%;
+    border-radius: 20px;
+    /* height: 300px; */
+}
+
+.greetingImage img{
+    border-radius: 20px;
+    /* height: 300px; */
+}
+

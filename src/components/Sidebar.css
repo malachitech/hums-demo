@@ -1,0 +1,99 @@
+.sidebar{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 20px;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.closeSidebarBtn{
+    display: none;
+    
+}
+.navbar-logo {
+    color: #000;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.8em;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    font-weight: bolder;
+  }
+.navbar-icon{
+    color: #3A4BE6;
+
+}
+
+.sidebarlinks{
+    background-color: #3A4BE6;
+    padding: 30px 50px;
+    border-radius: 20px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sidebarlinks >  a{
+    margin: 5px 0;
+    background: none;
+    padding: 20px;
+    transition: 0.5s ease-in;
+}
+.sidebarlinks >  a:hover{
+    color: rgb(136, 136, 139);
+    background-color: rgba(225, 225, 228, 0.61);
+}
+.sidebarlinks > a > *{
+    text-decoration: none;
+    font-size: 2em;
+    background: none;
+    color: white;
+}
+
+@media screen and (max-width: 960px) {
+    .sidebar{
+        z-index: 999;
+        width: 70%;
+        
+    }
+
+    .closeSidebarBtn{
+        display: block;
+    }
+    
+    .closeSidebarBtn > *{
+        display: block;
+        font-size: 1.3em;
+        position: absolute;
+        right: 10px;
+        
+        
+    }
+    .navbar-logo {
+       
+        font-size: 1.3em;
+        
+      }
+    .navbar-icon{
+        color: #3A4BE6;
+    
+    }
+    
+    
+    .sidebarlinks > a > *{
+
+        font-size: 1.5em;
+        
+    }
+    
+}
+  
